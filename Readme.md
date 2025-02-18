@@ -7,8 +7,7 @@ Welcome to **Salted**! This repository provides a comprehensive set of resources
 ## Repository Contents
 
 - **Dataset:**  
-  A structured dataset containing original and simplified sentences along with detailed error annotations.  
-  **File Format:** Typically provided as CSV or similar tabular formats.
+  A structured dataset containing original and simplified sentences along with detailed error annotations.
 
 - **Taxonomy:**  
   Our error taxonomy is available in both PNG and PDF formats. This visual and document-based taxonomy outlines the classification of simplification errors, including:
