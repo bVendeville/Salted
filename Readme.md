@@ -17,7 +17,7 @@ Welcome to **Salted**! This repository provides a comprehensive set of resources
   - **Simplification Errors**  
 
 - **Annotation Scheme:**  
-  Detailed guidelines provided in a Microsoft Word document. This scheme explains the annotation procedures.
+  Detailed guidelines provided in a docx. This scheme explains the annotation procedures.
 
 - **Annotation Templates:**  
   Excel (XLSX) files with clean headers. These templates are designed for annotators to paste each line of the dataset and mark errors according to the provided scheme.
