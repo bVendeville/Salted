@@ -29,29 +29,30 @@ Welcome to **Salted**! This repository provides a comprehensive set of resources
 
 The dataset is organized with the following columns and data types:
 
-| **Column**                                     | **Data Type** | **Description**                                                              |
-|------------------------------------------------|---------------|------------------------------------------------------------------------------|
-| **source sentence**                            | Object        | The original sentence before simplification.                               |
-| **simplified sentence**                        | Object        | The automatically simplified version of the source sentence.               |
-| **run_id**                                     | Object        | Identifier for the run of simplification.                                  |
-| **snt_id**                                     | Object        | Unique sentence identifier.                                                |
-| **No error**                                   | Boolean       | Marks if no error is present in the simplified sentence.                   |
-| **A1. Random generation**                      | Boolean       | Indicates if the error is due to random generation.                        |
-| **A2. Syntax error**                           | Boolean       | Indicates syntactic errors.                                                |
-| **A3. Contradiction**                          | Boolean       | Flags contradictions between the source and simplified texts.              |
-| **A4. Simple punctuation / grammar errors**    | Boolean       | Marks minor punctuation or grammar errors.                                 |
-| **A5. Redundancy**                             | Boolean       | Indicates redundancy in the simplified text.                               |
-| **B1. Format misalignement**                   | Boolean       | Flags formatting misalignments.                                            |
-| **B2. Prompt misalignement**                   | Boolean       | Indicates misalignment with the prompt or instruction.                     |
-| **C1. Factuality hallucination**               | Boolean       | Marks instances where non-factual content is generated.                    |
-| **C2. Faithfulness hallucination**             | Boolean       | Indicates hallucinations affecting faithfulness to the source content.     |
-| **C3. Topic shift**                            | Boolean       | Flags shifts in topic or content drift.                                    |
-| **D1.1. Overgeneralization**                   | Boolean       | Indicates overgeneralization errors.                                       |
-| **D1.2 Overspecification of Concepts**         | Boolean       | Marks cases where concepts are described in excessive detail unnecessarily.|
-| **D2.1. Loss of Informative Content**          | Boolean       | Flags loss of important information during simplification.                 |
-| **D2.2. Out-of-Scope Generation**              | Boolean       | Indicates generation of content that is out-of-scope relative to the source.|
-| **Commentaire**                                | Object        | Additional comments regarding the annotation.                              |
-| **Annotator**                                  | Object        | Identifier or name of the annotator.                                         |
+| **Column**                                     | **Data Type** | **Description**                                      |
+|------------------------------------------------|---------------|------------------------------------------------------|
+| **source sentence**                            | Object        | The original sentence before simplification.        |
+| **simplified sentence**                        | Object        | The automatically simplified version.               |
+| **run_id**                                     | Object        | Identifier for the simplification run of the participant.     |
+| **snt_id**                                     | Object        | Unique sentence identifier.                         |
+| **No error**                                   | Boolean       | Marks if no error is present.                       |
+| **A1. Random generation**                      | Boolean       | Indicates random generation errors.                 |
+| **A2. Syntax error**                           | Boolean       | Indicates syntactic errors.                         |
+| **A3. Contradiction**                          | Boolean       | Indicates contradiction errors.                     |
+| **A4. Simple punctuation / grammar errors**    | Boolean       | Indicates simple punctuation/grammar errors.        |
+| **A5. Redundancy**                             | Boolean       | Indicates redundancy errors.                        |
+| **B1. Format misalignment**                    | Boolean       | Indicates format misalignment errors.               |
+| **B2. Prompt misalignment**                    | Boolean       | Indicates prompt misalignment errors.               |
+| **C1. Factuality hallucination**               | Boolean       | Indicates factuality hallucination errors.          |
+| **C2. Faithfulness hallucination**             | Boolean       | Indicates faithfulness hallucination errors.        |
+| **C3. Topic shift**                            | Boolean       | Indicates topic shift errors.                       |
+| **D1.1. Overgeneralization of Concepts**       | Boolean       | Indicates overgeneralization errors.                |
+| **D1.2 Overspecification of Concepts**         | Boolean       | Indicates overspecification errors.                 |
+| **D2.1. Loss of Informative Content**          | Boolean       | Indicates loss of informative content.              |
+| **D2.2. Out-of-Scope Generation**              | Boolean       | Indicates out-of-scope generation errors.           |
+| **Commentaire**                                | Object        | Additional comments regarding the annotation.       |
+| **Annotator**                                  | Object        | Identifier of the annotator.                        |
+
 
 ---
 
