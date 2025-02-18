@@ -70,3 +70,5 @@ The dataset is organized with the following columns and data types:
    ```bash
    git clone https://github.com/bVendeville/Salted.git
    cd Salted
+
+Use processing_data.ipynb to run basic analysis
